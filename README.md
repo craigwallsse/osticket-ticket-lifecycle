@@ -36,7 +36,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <h2>Configuring osTicket Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/6PB0dYP.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6PB0dYP.jpeg" height="80%" width="80%" alt="Image of roles in osTicket"/>
 </p>
 <p>
 I configured the roles by going to the Admin Panel, then Agents, and selecting Roles. Here, I set up a role called "Supreme Admin."
@@ -44,7 +44,7 @@ I configured the roles by going to the Admin Panel, then Agents, and selecting R
 <br />
 
 <p>
-<img src="https://i.imgur.com/u1f60Y9.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/u1f60Y9.jpeg" height="80%" width="80%" alt="Image of departments in osTicket"/>
 </p>
 <p>
  Next, I configured the departments by navigating to Admin Panel -> Agents -> Departments, where I created a department called "System Administrators."
@@ -52,7 +52,7 @@ I configured the roles by going to the Admin Panel, then Agents, and selecting R
 <br />
 
 <p>
-<img src="https://i.imgur.com/Cb0DrMu.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Cb0DrMu.jpeg" height="80%" width="80%" alt="Image of teams in osTicket"/>
 </p>
 <p>
 After that, I configured the teams by going to Admin Panel -> Agents -> Teams and creating two teams: "Level I Support" and "Level II Support."
@@ -60,7 +60,7 @@ After that, I configured the teams by going to Admin Panel -> Agents -> Teams an
 <br />
 
 <p>
-<img src="https://i.imgur.com/8MFsbBL.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8MFsbBL.jpeg" height="80%" width="80%" alt="Image of agent names in osTicket"/>
 </p>
 <p>
 To allow anyone to create tickets, I went to Admin Panel -> Settings -> User Settings and selected "Registration Required," requiring registration and login to create tickets. I then configured agents (workers) by going to Admin Panel -> Agents -> Add New and adding agents named Jane and John. 
@@ -68,7 +68,7 @@ To allow anyone to create tickets, I went to Admin Panel -> Settings -> User Set
 <br />
 
 <p>
-<img src="https://i.imgur.com/qugE4Qw.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qugE4Qw.jpeg" height="80%" width="80%" alt="Image of new user names added to osTicket"/>
 </p>
 <p>
 For users (customers), I went to Agent Panel -> Users -> Add New and added users named Karen and Ken.
@@ -76,7 +76,7 @@ For users (customers), I went to Agent Panel -> Users -> Add New and added users
 <br />
 
 <p>
-<img src="https://i.imgur.com/jh0joYK.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jh0joYK.jpeg" height="80%" width="80%" alt="Image of SLA types in osTicket"/>
 </p>
 <p>
 In addition, I configured SLAs by navigating to Admin Panel -> Manage -> SLA and setting up three SLAs: Sev-A (1 hour, 24/7), Sev-B (4 hours, 24/7), and Sev-C (8 hours, business hours). Finally, I configured help topics by going to Admin Panel -> Manage -> Help Topics and creating topics for "Business Critical Outage," "Personal Computer Issues," "Equipment Request," and "Password Reset."</p>
@@ -86,14 +86,14 @@ In addition, I configured SLAs by navigating to Admin Panel -> Manage -> SLA and
 <h2>Lifecycle Stages Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/WouxqKO.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WouxqKO.jpeg" height="80%" width="80%" alt="Image of emergency ticket in osTicket"/>
    <figcaption><strong>The application is crashing!.</strong></figcaption>
 </figure>
 </p>
 <br>
 
 <p>
-<img src="https://i.imgur.com/qU4b8bD.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qU4b8bD.jpeg" height="80%" width="80%" alt="Image of ticket properties"/>
    <figcaption><strong>Lets escalate this issue and assign it to Craig.</strong></figcaption>
 </figure>
 </p>
